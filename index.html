@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="s.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#languages">Languages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header Section with Profile Picture -->
+    <header class="header">
+        <img src="image.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Vishva Chirag Patel</h1>
+        <p class="intro">Student</p>
+        <button onclick="scrollToSection('contact')">Get in Touch</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a dedicated Computer Science and Engineering student with a passion for technology and innovation. My academic journey has equipped me with a solid foundation in programming, algorithms, data structures, and software development. I enjoy solving complex problems, and I’m particularly interested in areas like artificial intelligence, machine learning, and full-stack development.
+
+            Throughout my studies, I've worked on various projects where I've applied theoretical knowledge to practical challenges, and I’m always excited to learn and explore new technologies. I'm a strong team player, with a keen eye for detail, and I thrive in collaborative environments.
+            
+            In my free time, I enjoy contributing to open-source projects, enhancing my coding skills, and staying updated with the latest trends in tech. I look forward to bringing my technical skills, creativity, and enthusiasm for technology to real-world applications and contributing positively to the tech community!</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Schooling</h3>
+            <p>Reliance Foundation School, Surat, Gujarat, 2009 - 2023</p>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+            <p>SRM University, 2023 - 2027</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Eletric Bill Generation System</h3>
+            <p>Created a PPS mini project using C language.</p>
+        </div>
+        <div class="project">
+            <h3>Wifi Controlled Electric Bulb</h3>
+            <p>Created a Semiconductor Mini Project using Arduino uno.</p>
+        </div>
+        <div class="project">
+            <h3>eHealthCare Management System</h3>
+            <p>Created a Java Project using Html/CSS/JavaScript, Java, SQL used to keep all the track of
+                patient, doctors and appointments.</p>
+        </div>
+        <div class="project">
+            <h3>Smart Clock</h3>
+            <p>Created a mini project for computer architecture using Arduino uno, microcontroller, I2C, LCD
+                display and real time clock(rtc) circuits.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+    
+        <!-- Programming Languages -->
+        <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+
+     <!-- Technical Proficiency -->
+     <div class="skills-category">
+        <h3>Technical Proficiency</h3>
+        <ul class="skills-list">
+            <li>Data Structures & Algorithms</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Machine Learning</li>
+            <li>Database Management (MySQL)</li>
+            <li>Version Control (Git, GitHub)</li>
+            <li>MATLAB</li>
+            <li>AutoCAD</li>
+        </ul>
+    </div>
+</section>    
+
+    <!-- Certifications Section -->
+    <!-- Certifications Section -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>
+            <a href="https://drive.google.com/file/d/128PGTTIwdCI65jJsSj9l0lihCCg7EFJe" target="_blank">
+                OOPs Concept in C++ - Great learning Academy
+            </a>
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/1RITFHaV7NwKxhXvRlRxJN_OaVXVkPuG6" target="_blank">
+                Fundamentals of Programming - Coursera
+            </a>
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/1X4S0gcyZj7QgUK3d5t98rZaCd7YkoMVL" target="_blank">
+                C Programming - Code and Debug
+            </a>
+        </li>
+    </ul>
+</section>
+
+
+    <!-- Languages Section -->
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Gujarati</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: vishvacpatel1300@gmail.com</p>
+        <p>Phone: +91 8758163713</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Vishva Chirag Patel</p>
+    </footer>
+
+    <script>
+        // Smooth scroll to sections
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
